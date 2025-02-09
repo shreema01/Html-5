@@ -26,8 +26,80 @@
         PassWord:<input type="password"><br>
         <input type="submit"><br>
     </form>
+    <hr>
 
-    <!-- Label tag(pore dekhbo) -->
-    <form></form>
+    <!-- input tag(my practice) -->
+    <form>
+        City:<input type="text" placeholder="city" name="city" value="city" required="true">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    <hr>
+    <!-- label tag -->
+     <label for="email">Email:</label>
+     <input type="text" id="email" placeholder="email" required="true">
+     <br>
+     <br>
+     <input type="submit"><br>
+    <!-- Action diaa submit button test kora hoiese -->
+     <form action="/contact-me">
+    <!-- input type-Date -->
+     Date:<input type="date"><br>
+    <!-- input type-File -->
+     File:<input type="file"><br>
+    <!-- input type-Color -->
+     Color:<input type="color"><br>
+    <!-- input type-Range -->
+     Price Range:<input type="range"><br>
+    <!-- input type-Button -->
+    <!-- button input type e value dewa must karon user baki field gula te value dibe kintu button e only click korbe -->
+     Poke me:<input type="button" value="poked"><br>
+     Submit:<input type="submit" ><br>
+    </form>
+
+    <!--Input Type(Radio)-Mane jekono ektai answer hote pare -->
+    <form action="">
+    <label for="male">Male:</label>
+    <input type="radio" id="male" name="gender" value="male"><br>
+    <label for="female">Female:</label>
+    <input type="radio" id="female" name="gender" value="female"><br>
+    <label for="other">Other:</label>
+    <input type="radio" id="other" name="gender" value="other">
+    </form>
+    <br>
+
+     <!--Input Type(checkbox)-Mane ek er besi ans hotte pare answer hote pare -->
+    <form action="">
+        <label for="c">C:</label>
+        <input type="checkbox" id="c" name="language" value="c"><br>
+        <label for="python">Python:</label>
+        <input type="checkbox" id="python" name="language" value="python"><br>
+        <label for="java">Java:</label>
+        <input type="checkbox" id="java" name="language" value="java"><br>
+        </form>
+
+    <!-- Input Type->select(radio button but option onk hobe) -->
+     <form action="">
+        <label for="country">Select your country</label>
+        <select name="country" id="country ">
+            <option value="india">india</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select>
+     </form>
+    <br>
+
+     <!-- textarea->mane holo jokon besi text dorker porbe tokon use kora jabe -->
+     <textarea name="story" id="story" cols="20" rows="4">
+     please write a story
+      </textarea>
+    
+    <!-- iframe->mane holo jekono webpage/video/content nijer web page e bebohar kora jai -->
+    <iframe  height="300" width="300" src="https://www.wikipedia.org/"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u2XOyXN1Ppo?si=2B092i1c24U7A9sV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     
 </body>
 </html>
